@@ -1,5 +1,4 @@
 import { Grid, GridItem, Show } from "@chakra-ui/react";
-import { aside, nav } from "framer-motion/client";
 import Navbar from "./components/Navbar";
 
 function App() {
