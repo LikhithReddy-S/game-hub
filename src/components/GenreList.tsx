@@ -6,7 +6,7 @@ const GenreList = () => {
   const { data ,isLoading} = useGenres();
   return (
     <List>
-      {/* {isLoading && <Spinner />} */}
+      {isLoading && <Spinner />}
       {data.map((genre) => (
         <ListItem key={genre.id} paddingY='5px'>
           <HStack>
