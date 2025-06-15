@@ -7,6 +7,24 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+- 🎮 Game Hub
+
+Tech Stack: React, TypeScript, Vite, RAG Gaming API
+Features:
+
+    Dynamic game listing powered by the RAG Gaming API.
+
+    Filter games by platform, genre, category, and ordering (e.g., popularity, release date).
+
+    Integrated search functionality for quick access to specific games.
+
+    Supports both dark and light modes for an enhanced user experience.
+
+    Built with a responsive UI using React + TypeScript, optimized with Vite for fast performance.
+
+Description:
+Game Hub is a sleek and responsive web application that allows users to explore a vast catalog of games using filters and real-time search. With an intuitive interface and theme toggling, it delivers a smooth browsing experience for gaming enthusiasts.
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
